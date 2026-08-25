@@ -1,7 +1,7 @@
 N= int(input())
 
-for i in range(1,N+1):
+for i in range(N):
 
-    for j in range(1,N+1):
-        print(f"({i},{j})",end=" ")
+    for j in range(N):
+        print(f"({N-i},{N-j})",end=" ")
     print()
