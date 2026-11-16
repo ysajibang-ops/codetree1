@@ -1,10 +1,10 @@
-N= int(input())
+# N= int(input())
 
-for i in range(N):
+# for i in range(N):
 
-    for j in range(N):
-        print(f"({N-i},{N-j})",end=" ")
-    print()
+#     for j in range(N):
+#         print(f"({N-i},{N-j})",end=" ")
+#     print()
 
 
 
@@ -15,3 +15,12 @@ for i in range(N):
 #     for j in range(n,0,-1):
 #         print(f'({i},{j})', end=' ')
 #     print()
+
+
+N=int(input())
+
+for i in range(N):
+
+    for j in range(N):
+        print(f"({N-i},{N-j})", end=" ")
+    print()
