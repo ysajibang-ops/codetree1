@@ -37,6 +37,7 @@ for i in range(N):
         print(cnt, end="")
 
         cnt+=1
-    if cnt==10:
-        cnt==1
+
+        if cnt==10:
+            cnt=1
     print()
