@@ -1,0 +1,15 @@
+N=int(input())
+
+for i in range(N):
+
+    if i%2==0:
+        for j in range(N):
+            print(f"{j+1}", end="")
+            
+
+    else:
+        for j in range(N):
+            print(f"{N-j}", end="")
+
+    print()
+    
