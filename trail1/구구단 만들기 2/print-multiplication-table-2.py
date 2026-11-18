@@ -20,7 +20,7 @@ for i in range(2,10,2):
 # for i in range(2, 9, 2):
 #     for j in range(B, A - 1, -1):
 #         print(f"{j} * {i} = {j * i}", end="")
-# 2. "만약 현재 단(i)이 마지막 단(A)이 아니라면, 뒤에 ' / '를 붙여줘라"
+# "만약 현재 단(i)이 마지막 단(A)이 아니라면, 뒤에 ' / '를 붙여줘라"
 #         if j != A:
 #             print(" / ", end="")
 
