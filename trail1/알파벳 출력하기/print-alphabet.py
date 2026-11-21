@@ -13,7 +13,11 @@
 #             gkq=65
 #     print()
 
+
+# 최적화된방법(아스키코드의 숫자와 문자를 몰라도 출력할 수 있는 코드)
+
 n = int(input().strip())
+
 cnt = "A"
 
 for i in range(n):
