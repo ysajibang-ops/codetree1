@@ -5,7 +5,7 @@ print(sum(gkq))
 
 
 
-교재 예시
+# 교재 예시
 # gkq=input().split()
 
 # sum_val=0
