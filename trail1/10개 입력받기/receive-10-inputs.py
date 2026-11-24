@@ -9,5 +9,6 @@ for i in wjdtn:
     else:
         fltmxm.append(i)
 
+gkq=sum(fltmxm)
 aver=sum(fltmxm)/len(fltmxm)
-print(sum(fltmxm),aver)        
+print(f"{gkq} {aver:.1f}")        
